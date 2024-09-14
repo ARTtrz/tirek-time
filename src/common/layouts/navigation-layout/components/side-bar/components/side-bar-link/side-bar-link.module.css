@@ -1,0 +1,34 @@
+.wrapper {
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  transition: 200ms;
+  border-radius: 6px;
+  gap: 4px;
+  cursor: pointer;
+  color: #bbbbc6
+}
+
+.link{
+  text-decoration: none;
+}
+
+.title{
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+/* .wrapper:hover,
+.active > .wrapper {
+  background-color: var(--background-color);
+} */
+
+.icon {
+  width: 20px;
+  color: #bbbbc6
+}
+
+.menu_icon{
+  font-size: 20px;
+}

@@ -1,0 +1,31 @@
+:root, #root {
+    font-family: Roboto, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    color: var(--text-color);
+    background-color: #f8f8f8;
+    color-scheme: light;
+  }
+  
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+  
+a {
+  color: var(--primary-color);
+}
+
+body {
+  background-color: var(--background-color);
+}
+
+#root .ant-input{
+  padding: 12px;
+}
+
+#root .ant-input-search-button{
+  height: 64px;
+}
+
+
